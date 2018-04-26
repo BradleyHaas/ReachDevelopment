@@ -1,0 +1,1354 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #ffffff;
+    font-family: 'Century Gothic' !Important;
+    font-size: 13px;
+    color: #333333;
+    font-weight: normal;
+    height: 100%;
+}
+
+.NextPrevMonthStyle {
+    padding: 0px 10px 0px 10px;
+}
+
+.NoScroll::-webkit-scrollbar {
+    display: none;
+}
+
+.SiteContentCopy {
+    background-color: #ffffff;
+    font-family: 'Century Gothic' !Important;
+    font-size: 13px;
+    color: #333333;
+    font-weight: normal;
+}
+
+.SiteContentCopyAlt {
+    background-color: #f1f1f2;
+    font-family: 'Century Gothic' !Important;
+    font-size: 13px;
+    color: #333333;
+    font-weight: normal;
+}
+
+.PrintPayStub {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Century Gothic';
+    font-size: 12px;
+}
+
+a:link {
+	color: #78A9C2;
+	text-decoration: none;
+	line-height: 8pt;
+	font-family: 'Century Gothic';
+}
+a:visited {
+	color: #78A9C2;
+	text-decoration: none;
+	line-height: 8pt;
+	font-family: 'Century Gothic';
+}
+a:active {
+	text-decoration: none;
+	line-height: 8pt;
+	font-family: 'Century Gothic';
+}
+a:hover {
+	color: #78A9C2;
+	line-height: 8pt;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+}
+
+.header
+{
+	font-size: 10pt;
+	font-family: 'Century Gothic';
+	color: #000000
+}
+
+.ContentmentHeader
+{
+	border-bottom: #87c9b8 1px dotted;
+    height: 140px;
+    background-color: #363636;
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:199;
+    -webkit-box-shadow:0 0 16px rgba(0,0,0,0.5);
+    -moz-box-shadow:0 0 16px rgba(0,0,0,0.5);
+    box-shadow:0 0 16px rgba(0,0,0,0.5);
+	padding: 0px 0px 0px 0px;
+}
+
+.ContentmentHeaderSlim
+{
+    height: 60px;
+    background-color: #0f4c8b;
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:199;
+    -webkit-box-shadow:0 0 16px rgba(0,0,0,0.5);
+    -moz-box-shadow:0 0 16px rgba(0,0,0,0.5);
+    box-shadow:0 0 16px rgba(0,0,0,0.5);
+	padding: 0px 0px 0px 0px;
+}
+
+.MasterNav {
+    font-family: 'Century Gothic';
+    font-size: 13px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: normal;
+    height: 60px;
+    background-color: #999999;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 199;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.MasterNav a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 14px;
+    font-family: 'Century Gothic';
+}
+.MasterNav a:visited {
+	color: #FFFFFF;
+    text-decoration: none;
+    line-height: 14px;
+    font-family: 'Century Gothic';
+}
+.MasterNav a:active {
+	color: #FFFFFF;
+    text-decoration: none;
+    line-height: 14px;
+    font-family: 'Century Gothic';
+}
+.MasterNav a:hover {
+	color: #FFFFFF;
+    text-decoration: none;
+    line-height: 14px;
+    font-family: 'Century Gothic';
+}
+
+.POSMasterFrameWork
+{
+	background-position: center top;
+	background-image: url(../Images/PointOfSale/POSItemListBG.gif);
+	background-repeat: repeat-y;
+	height: 500px;
+	padding: 30px 0px 20px 0px;
+}
+
+.RegFramework
+{
+    font-family: 'Century Gothic';
+    font-size: 12px;
+    color: #333333;
+    background-image: url('../Images/RegistrationBG.png');
+    background-repeat: repeat-y;
+    background-position: center top;
+    min-height: 400px;
+}
+
+.RegFramework h2
+{
+    font-family: 'Century Gothic';
+    font-size: 18px;
+    color: #333333;
+}
+
+.ItemListFrameWork
+{
+	background-position: center top;
+	background-image: url(../Images/PointOfSale/ItemListBG.gif);
+	background-repeat: repeat-y;
+	height: 200px;
+	color: #000000;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	font-size: 12px;
+	padding: 0px 0px 0px 0px;
+}
+
+.ItemSubTotals
+{
+	background-position: center top;
+	background-image: url(../Images/PointOfSale/TotalTaxBG.gif);
+	background-repeat: no-repeat;
+	color: #000000;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	font-size: 12px;
+	line-height: 30px;
+	height: 87px;
+}
+
+.GrandTotal
+{
+	background-position: center top;
+	background-image: url(../Images/PointOfSale/TotalBG.gif);
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	font-size: 14px;
+	line-height: 30px;
+	height: 34px;
+}
+
+.ItemList
+{
+	padding: 0px 15px 0px 0px;
+	height: 400px;
+	color: #000000;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	font-size: 12px;
+}
+
+.ItemListCopy
+{
+	color: #000000;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	font-size: 12px;
+}
+
+.ItemListCopyOrange
+{
+	color: #CF6B31;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.CouponCopy
+{
+	color: #000000;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.PaymentHeader
+{
+	padding: 0px 0px 10px 0px;
+	color: #13B5EA;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	font-size: 22px;
+	border-bottom: #d3d3d3 1px solid;
+}
+
+.PaymentAmounts
+{
+	padding: 0px 0px 0px 0px;
+	color: #000000;
+	height: 30px;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	font-size: 12px;
+	border-bottom: #d3d3d3 1px solid;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.PaymentAmountsLast
+{
+	padding: 0px 0px 0px 0px;
+	color: #000000;
+	height: 30px;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.PaymentMethodList
+{
+	background-position: center top;
+	background-image: url(../Images/PointOfSale/PaymentMethodBG.gif);
+	background-repeat: repeat-y;
+	height: 100px;
+	color: #000000;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	font-size: 12px;
+	padding: 0px 0px 0px 0px;
+}
+
+.PaymentTotal
+{
+	background-position: right center;
+	background-image: url(../Images/PointOfSale/CollectPaymentTotal.gif);
+	background-repeat: no-repeat;
+	height: 45px;
+	color: #000000;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	font-size: 16px;
+	padding: 0px 0px 0px 0px;
+}
+
+.PaymentChange
+{
+	background-position: right center;
+	background-image: url(../Images/PointOfSale/CollectPaymentChange.gif);
+	background-repeat: no-repeat;
+	height: 45px;
+	color: #000000;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	font-size: 12px;
+	padding: 0px 0px 0px 0px;
+}
+
+.PaymentCashTendered
+{
+	background-position: right center;
+	background-image: url(../Images/PointOfSale/CollectPaymentCashTendered.gif);
+	background-repeat: no-repeat;
+	height: 45px;
+	color: #000000;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	font-size: 12px;
+	padding: 0px 0px 0px 0px;
+}
+
+.PaymentFields
+{
+	background-position: right center;
+	background-image: url(../Images/PointOfSale/CollectPaymentCashTendered.gif);
+	background-repeat: no-repeat;
+	height: 41px;
+	color: #000000;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	font-size: 12px;
+	padding: 0px 0px 0px 0px;
+}
+
+.PaymentSection
+{
+	color: #CF6B31;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 0px 20px 0px 0px;
+	letter-spacing: 1px;
+}
+
+.ChequeFieldsLabel
+{
+	color: #CF6B31;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 0px 0px 0px 0px;
+	letter-spacing: 1px;
+}
+
+.ItemListHeader
+{
+	color: #CF6B31;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.ItemListItem
+{
+	color: #000000;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	font-size: 13px;
+	letter-spacing: 1px;
+	border-bottom: #a9a9a9 1px dotted;
+	height: 30px;
+	vertical-align: middle;
+	border-right: #ff7f50 1px solid;
+}
+
+.ItemListPrice
+{
+	color: #000000;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	font-size: 13px;
+	letter-spacing: 1px;
+	border-bottom: #a9a9a9 1px dotted;
+	height: 30px;
+	vertical-align: middle;
+}
+
+.LastItem
+{
+	color: #000000;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	font-size: 13px;
+	letter-spacing: 1px;
+	height: 30px;
+	vertical-align: middle;
+	border-right: #ff7f50 1px solid;
+}
+
+.LastItemPrice
+{
+	color: #000000;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	font-size: 13px;
+	letter-spacing: 1px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+.DiscountPayment
+{
+	padding: 0px 0px 0px 15px;
+	border-left: #d3d3d3 1px solid;
+}
+
+.DTRequired
+{
+	font-family: 'Century Gothic';
+	color: #ff6600;
+	font-size: 9px;
+}
+
+.AccordionHeader
+{
+    padding: 5px 0px 5px 0px;
+}
+
+.AccordionHeaderSelected
+{
+    padding: 5px 0px 5px 0px;
+}
+
+.AccordionLink a
+{
+    padding: 5px 0px 5px 0px;
+}
+
+.AccordionLink a:link
+{
+    padding: 5px 0px 5px 0px;
+}
+
+.PageHeader
+{
+	font-family: Century Gothic;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 100;
+	color: #54B948;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.Hidden
+{
+    width: 1px;
+    height: 1px;
+    border: none;
+}
+
+.WorkOrderHeader
+{
+    font-family: 'Century Gothic';
+    font-size: 16px;
+    color: #333333;
+}
+
+.SessionInfo
+{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.ImageStroke
+{
+    border-right: #a9a9a9 1px solid;
+    padding-right: 5px;
+    border-top: #a9a9a9 1px solid;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-left: #a9a9a9 1px solid;
+    padding-top: 5px;
+    border-bottom: #a9a9a9 1px solid;
+}
+.CMSBody
+{
+	background-position: left top;
+	font-size: 12px;
+	background-image: url(../images/header/CMS_Appheader_BG.jpg);
+	color: #ffffff;
+	background-repeat: repeat-x;
+	font-family: 'Century Gothic';
+}
+.AppHeaderBG
+{
+	background-position: left top;
+	font-size: 12px;
+	background-image: url(../images/header/CMS_Appheader_BG.jpg);
+	color: #ffffff;
+	background-repeat: repeat-x;
+	font-family: 'Century Gothic';
+}
+.ProgramHeading
+{
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    color: #000000;
+    font-size: 16px;
+}
+.ProgramHeadingLink
+{
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    color: #000000;
+    font-size: 12px;
+}
+.ProgramList
+{
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    color: #000000;
+    font-size: 12px;
+    padding-left: 20px;
+}
+.PointOfSaleBG
+{
+	background-position: center center;
+	font-size: 12px;
+	background-image: url(../Images/POSLoginBg.jpg);
+	color: #ffffff;
+	background-repeat: no-repeat;
+	font-family: 'Century Gothic';
+}
+.contentmentlogin
+{
+	padding-left: 140px;
+	font-size: 12px;
+	color: #ffffff;
+	padding-top: 155px;
+	font-family: 'Century Gothic';
+}
+.contentmentcopy
+{
+	font-size: 12px;
+	color: #ffffff;
+	font-family: 'Century Gothic';
+}
+.ContentmentLoginButton
+{
+	padding: 6px 48px 0px 0px;
+}
+.WelcomeBack
+{
+	font-family: 'Century Gothic';
+	font-size: 12px;
+	color: #cf6b31;
+}
+.MasterConsole
+{
+	font-family: 'Century Gothic';
+	font-size: 14px;
+	color: #cf6b31;
+	padding: 4px 0px 4px 10px;
+	background-color: #E6E6E6;
+	text-transform: uppercase;
+}
+b.MasterConsole
+{
+	font-weight: 100;
+}
+.AppConsole
+{
+	font-family: 'Century Gothic';
+	font-size: 14px;
+	color: #cf6b31;
+	padding: 2px 0px 2px 10px;
+	text-transform: uppercase;
+}
+.AppMenu
+{
+	font-family: 'Century Gothic';
+	font-size: 8pt;
+	color: #000000;
+}
+.MenuWelcome
+{
+	padding: 10px 10px 10px 10px;
+	font-size: 8pt;
+	font-family: 'Century Gothic';
+	color: #000000
+}
+.LoggedIn
+{
+	padding-left: 10px;
+	font-size: 8pt;
+	padding-bottom: 3px;
+	border-left: #000000 1px solid;
+	color: #000000;
+	padding-top: 3px;
+	border-bottom: #000000 1px solid;
+	font-family: 'Century Gothic';
+	background-color: #f5f5f5;
+}
+.LogOut
+{
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-right: #000000 1px solid;
+	border-bottom: #000000 1px solid;
+	font-size: 8pt;
+	font-family: 'Century Gothic';
+	color: #000000;
+	background-color: #f5f5f5;
+}
+.appTable
+{
+	border-top: #939598 1px solid;
+	border-right: #939598 1px solid;
+	padding-bottom: 20px;
+	border-left: #939598 1px solid;
+	border-bottom: #939598 1px solid;
+	background-color: #ffffff;
+}
+.tblBorder
+{
+	padding-bottom: 10px;
+}
+.tblBorderMaster
+{
+	padding-bottom: 10px;
+}
+.tblCopyPadding 
+{
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	font-size: 8pt;
+	font-family: 'Century Gothic';
+	color: #000000
+}
+
+.para8 {
+	font-family: 'Century Gothic';
+	font-size: 8pt;
+	color: #FFFFFF
+}
+.para8black
+{
+	font-size: 8pt;
+	font-family: 'Century Gothic';
+	color: #000000;
+}
+.para10 {
+	font-family: 'Century Gothic';
+	font-size: 10pt;
+	color: #FFFFFF
+}
+.para10black {
+	font-family: 'Century Gothic';
+	font-size: 10pt;
+	color: #000000;
+}
+.required
+{
+	font-size: 8pt;
+	color: red;
+	font-style: italic;
+	font-family: 'Century Gothic';
+}
+.SectionHeader
+{
+	font-family: 'Century Gothic';
+	font-size: 12pt;
+	color: #78A9C2;
+	padding-right: 0px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background-color: #f5f5f5;
+}
+.CatListHeader
+{
+	font-family: 'Century Gothic';
+	font-size: 12px;
+	color: #78A9C2;
+	padding-right: 0px;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+.CatListHeader a:link
+{
+	font-family: 'Century Gothic';
+	font-size: 12px;
+	color: #78A9C2;
+}
+
+.CatListHeader a:hover
+{
+	font-family: 'Century Gothic';
+	font-size: 12px;
+	color: #ff7f50;
+}
+
+.CatListHeader a:visited
+{
+	font-family: 'Century Gothic';
+	font-size: 12px;
+	color: #78A9C2;
+}
+
+.CatListHeader a:active
+{
+	font-family: 'Century Gothic';
+	font-size: 12px;
+	color: #78A9C2;
+}
+
+.SignInButton
+{
+    font-family: Arial;
+    font-size: 10px;
+    color: #CCCCCC;
+    background-color: #336600;
+    border: 1px solid #CCCCCC;
+    text-transform:lowercase;
+    padding: 2px 8px 2px 8px;
+}
+
+.LinkButton
+{
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 0px 15px 0px 15px;
+    background-color: #EBEBEB;
+    border-right: #d3d3d3 1px solid;
+    border-top: #d3d3d3 1px solid;
+    border-left: #d3d3d3 1px solid;
+    border-bottom: #d3d3d3 1px solid;
+    color: #333333;
+}
+
+input.Delete
+{
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 12px;
+    border-right: #d3d3d3 1px solid;
+    border-top: #d3d3d3 1px solid;
+    border-left: #d3d3d3 1px solid;
+    border-bottom: #d3d3d3 1px solid;
+    padding: 0px 4px 0px 4px;
+    color: #333333;
+    width: 60px;
+}
+
+input.ActiveWorkOrder
+{
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 12px;
+    border-right: #d3d3d3 1px solid;
+    border-top: #d3d3d3 1px solid;
+    border-left: #d3d3d3 1px solid;
+    border-bottom: #d3d3d3 1px solid;
+    padding: 0px 4px 0px 4px;
+    color: #009933;
+    width: 90px;
+}
+
+input.NonActiveWorkOrder
+{
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 12px;
+    border-right: #d3d3d3 1px solid;
+    border-top: #d3d3d3 1px solid;
+    border-left: #d3d3d3 1px solid;
+    border-bottom: #d3d3d3 1px solid;
+    padding: 0px 4px 0px 4px;
+    color: #990000;
+    width: 90px;
+}
+
+input.BarCode
+{
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: #FFFFFF;
+    padding-left: 8px;
+    border-right: #d3d3d3 1px solid;
+    border-top: #d3d3d3 1px solid;
+    border-left: #d3d3d3 1px solid;
+    border-bottom: #d3d3d3 1px solid;
+    width: 470px;
+    height: 34px;
+    vertical-align: middle;
+    color: #000000;
+}
+
+input.CustomerData
+{
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    padding-left: 8px;
+    border-right: #d3d3d3 1px solid;
+    border-top: #d3d3d3 1px solid;
+    border-left: #d3d3d3 1px solid;
+    border-bottom: #d3d3d3 1px solid;
+    width: 370px;
+    height: 26px;
+    vertical-align: middle;
+    color: #000000;
+}
+
+input.CustomerDataMedium
+{
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    padding-left: 8px;
+    border-right: #d3d3d3 1px solid;
+    border-top: #d3d3d3 1px solid;
+    border-left: #d3d3d3 1px solid;
+    border-bottom: #d3d3d3 1px solid;
+    width: 220px;
+    height: 26px;
+    vertical-align: middle;
+    color: #000000;
+}
+
+input.CustomerDataSmall
+{
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    padding-left: 8px;
+    border-right: #d3d3d3 1px solid;
+    border-top: #d3d3d3 1px solid;
+    border-left: #d3d3d3 1px solid;
+    border-bottom: #d3d3d3 1px solid;
+    width: 70px;
+    height: 26px;
+    vertical-align: middle;
+    color: #000000;
+}
+
+input.TimeClock
+{
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: #FFFFFF;
+    padding-left: 8px;
+    border-right: #d3d3d3 1px solid;
+    border-top: #d3d3d3 1px solid;
+    border-left: #d3d3d3 1px solid;
+    border-bottom: #d3d3d3 1px solid;
+    width: 370px;
+    height: 34px;
+    vertical-align: middle;
+    color: #000000;
+}
+
+input.RegForm
+{
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    padding-left: 8px;
+    border-right: #d3d3d3 1px solid;
+    border-top: #d3d3d3 1px solid;
+    border-left: #d3d3d3 1px solid;
+    border-bottom: #d3d3d3 1px solid;
+    width: 270px;
+    height: 30px;
+    vertical-align: middle;
+    color: #000000;
+}
+
+select.TimeClock
+{
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: #FFFFFF;
+    padding-left: 8px;
+    border-right: #d3d3d3 1px solid;
+    border-top: #d3d3d3 1px solid;
+    border-left: #d3d3d3 1px solid;
+    border-bottom: #d3d3d3 1px solid;
+    width: 150px;
+    height: 38px;
+    vertical-align: middle;
+    color: #000000;
+}
+
+select.CustomerData
+{
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: #FFFFFF;
+    padding-left: 8px;
+    border-right: #d3d3d3 1px solid;
+    border-top: #d3d3d3 1px solid;
+    border-left: #d3d3d3 1px solid;
+    border-bottom: #d3d3d3 1px solid;
+    width: 380px;
+    height: 34px;
+    vertical-align: middle;
+    color: #000000;
+}
+
+select.CustomerDataMedium
+{
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    padding-left: 8px;
+    border-right: #d3d3d3 1px solid;
+    border-top: #d3d3d3 1px solid;
+    border-left: #d3d3d3 1px solid;
+    border-bottom: #d3d3d3 1px solid;
+    width: 220px;
+    height: 30px;
+    vertical-align: middle;
+    color: #000000;
+}
+
+input.ChequeFields
+{
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    padding-left: 3px;
+    border-right: #ffffff 1px solid;
+    border-top: #ffffff 1px solid;
+    border-left: #ffffff 1px solid;
+    border-bottom: #ffffff 1px solid;
+    width: 70px;
+    height: 28px;
+    vertical-align: middle;
+    color: #000000;
+}
+
+input.CashTendered
+{
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    padding-left: 3px;
+    border-right: #ffffff 1px solid;
+    border-top: #ffffff 1px solid;
+    border-left: #ffffff 1px solid;
+    border-bottom: #ffffff 1px solid;
+    width: 70px;
+    height: 24px;
+    vertical-align: middle;
+    color: #000000;
+}
+
+input.CouponCode
+{
+	font-family: Century Gothic, Helvetica, sans-serif;
+	font-size: 22px;
+	padding-left: 3px;
+	padding-top: 3px;
+	border-right: #f1f1f2 1px solid;
+	border-top: #f1f1f2 1px solid;
+	border-left: #f1f1f2 1px solid;
+	border-bottom: #f1f1f2 1px solid;
+	width: 72px;
+	height: 36px;
+	vertical-align: middle;
+	color: #000000;
+	background-position: center center;
+	background-image: url(../Images/PointOfSale/CouponCodeBG.gif);
+	background-repeat: no-repeat;
+}
+
+input.SalePercent
+{
+	font-family: Century Gothic, Helvetica, sans-serif;
+	font-size: 22px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	border-right: #f1f1f2 1px solid;
+	border-top: #f1f1f2 1px solid;
+	border-left: #f1f1f2 1px solid;
+	border-bottom: #f1f1f2 1px solid;
+	width: 52px;
+	height: 36px;
+	vertical-align: middle;
+	color: #000000;
+	background-position: right center;
+	background-image: url(../Images/PointOfSale/SalePercentBG.gif);
+	background-repeat: no-repeat;
+}
+
+input.username
+{
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #FFFFFF;
+    padding-left: 4px;
+    border-right: #ffffff 1px solid;
+    border-top: #ffffff 1px solid;
+    border-left: #ffffff 1px solid;
+    border-bottom: #ffffff 1px solid;
+}
+input.textbox
+{
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #FFFFFF;
+    padding-left: 4px;
+    border-right: #d3d3d3 1px solid;
+    border-top: #d3d3d3 1px solid;
+    border-left: #d3d3d3 1px solid;
+    border-bottom: #d3d3d3 1px solid;
+    width: 200px;
+}
+input.smalltextbox
+{
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #FFFFFF;
+    padding-left: 4px;
+    border-right: #d3d3d3 1px solid;
+    border-top: #d3d3d3 1px solid;
+    border-left: #d3d3d3 1px solid;
+    border-bottom: #d3d3d3 1px solid;
+    width: 50px;
+}
+textarea.textarea
+{
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 10px;
+    border-right: #d3d3d3 1px solid;
+    border-top: #d3d3d3 1px solid;
+    border-left: #d3d3d3 1px solid;
+    border-bottom: #d3d3d3 1px solid;
+}
+input.button
+{
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 10px;
+    border-right: #d3d3d3 1px solid;
+    border-top: #d3d3d3 1px solid;
+    border-left: #d3d3d3 1px solid;
+    border-bottom: #d3d3d3 1px solid;
+}
+select.dropdown
+{
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #FFFFFF;
+    border-right: #d3d3d3 1px solid;
+    border-top: #d3d3d3 1px solid;
+    border-left: #d3d3d3 1px solid;
+    border-bottom: #d3d3d3 1px solid;
+    width: 200px;
+}
+input.checkbox
+{
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 10px;
+    border-right: #d3d3d3 1px solid;
+    border-top: #d3d3d3 1px solid;
+    border-left: #d3d3d3 1px solid;
+    border-bottom: #d3d3d3 1px solid;
+}
+TD.NON 
+{
+	background-color: #FFFFFF; 
+	font-family: Century Gothic, Helvetica, sans-serif;
+	font-size :10px; 
+	color :#FFFFFF; 
+	font-weight :normal;
+}
+TD.TOP 
+{
+	background-color: #CCCCCC; 
+	font-family: Century Gothic, Helvetica, sans-serif;
+	font-size :10px; 
+	color :#0000FF; 
+	font-weight :bold;
+}
+TD.HL
+{
+	background-color: #ffffff;
+	font-family: Century Gothic, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-image: url(../Images/PointOfSale/ActiveDateBG.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+TD.SOMEGRAY 
+{
+	background-color: #CCCCCC; 
+	font-family: Century Gothic, Helvetica, sans-serif;
+	font-size :10px; 
+	color :#FFFFFF; 
+	font-weight :bold;
+}
+TD.SOME 
+{
+	font-family: Century Gothic, Helvetica, sans-serif;
+	font-size : 10px; 
+	color: #cf6b31; 
+	font-weight :bold;
+	background-color: #FFFFFF;
+}
+TD.DAY
+{
+	font-family: Century Gothic, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+	background-color: #FFFFFF;
+}
+TD.MONTH 
+{ 
+	font-family: Century Gothic, Helvetica, sans-serif; 
+	font-size :12px; 
+	color: #cf6b31;
+	text-transform: uppercase;
+}
+A.MONTH:Link
+{
+	background-color: #FFFFFF; 
+	font-family: Century Gothic, Helvetica, sans-serif; 
+	font-size :12px; 
+	color: #cf6b31;
+}
+A.MONTH:Visited
+{
+	background-color: #FFFFFF; 
+	font-family: Century Gothic, Helvetica, sans-serif; 
+	font-size :12px; 
+	color: #cf6b31;
+}
+A.NOEVENT:Link 
+{
+	font-family: Century Gothic, Helvetica, sans-serif; 
+	font-size :10px; 
+	color :#000000; 
+	font-weight :normal; 
+	text-decoration: none;
+}
+A.NOEVENT:Visited 
+{
+	font-family: Century Gothic, Helvetica, sans-serif;
+	font-size :10px; 
+	color :#000000; 
+	font-weight :normal; 
+	text-decoration: none;
+}
+A.EVENT:Link 
+{
+	font-family: Century Gothic, Helvetica, sans-serif;
+	font-size :10px; 
+	color :#000000; 
+	font-weight :bold; 
+	text-decoration: none;
+}
+A.EVENT:Visited 
+{
+	font-family: Century Gothic, Helvetica, sans-serif; 
+	font-size :10px; 
+	color :#000000; 
+	font-weight :bold; 
+	text-decoration: none;
+}
+A.NORMAL:Link 
+{
+	font-family: Century Gothic, Helvetica, sans-serif;
+	font-size :10px; 
+	color :#000000; 
+	font-weight :normal; 
+	text-decoration: none;
+}
+A.NORMAL:Visited 
+{
+	font-family: Century Gothic, Helvetica, sans-serif;
+	font-size :10px; 
+	color :#000000; 
+	font-weight :normal; 
+	text-decoration: none;
+}
+A.SOME:Link 
+{
+	font-family: Century Gothic, Helvetica, sans-serif;
+	font-size :10px; 
+	color :#000000; 
+	font-weight :normal; 
+	text-decoration: none;
+}
+A.SOME:Visited 
+{
+	font-family: Century Gothic, Helvetica, sans-serif; 
+	font-size :10px; 
+	color :#000000; 
+	font-weight :normal; 
+	text-decoration: none;
+}
+
+.AccordionPageHeader
+{
+	font-family: Century Gothic;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 100;
+	color: #0f4c8b;
+	text-transform: capitalize;
+	vertical-align: middle;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+.AccordionPageHeader a
+{
+	font-family: Century Gothic;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 100;
+	color: #0f4c8b;
+	text-transform: capitalize;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+.AccordionPageHeader a:hover
+{
+	font-family: Century Gothic;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 100;
+	color: #0f4c8b;
+	text-transform: capitalize;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+.AccordionContent
+{
+    padding: 14px 0px 14px 20px;
+    overflow: auto;
+}
+
+.AccordionHeader
+{
+    padding: 5px 0px 5px 30px;
+    margin: 2px 0px 2px 0px;
+    text-decoration: none;
+    font-family: 'Century Gothic' !important;
+	color: #0f4c8b;
+	font-size: 16px;
+    background-color: #f5f5f5;
+    background-image: url('../Images/Controls/ScheduleAccordionBackgroundIcon.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.AccordionHeader a:link
+{
+    text-decoration: none;
+    font-family: 'Century Gothic' !important;
+	color: #0f4c8b;
+	font-size: 13px;
+}
+
+.AccordionHeader a:hover
+{
+    text-decoration: underline;
+    font-family: 'Century Gothic' !important;
+	color: #0f4c8b;
+	font-size: 13px;
+}
+
+.AccordionHeaderSelected
+{
+    padding: 5px 0px 5px 30px;
+    margin: 2px 0px 2px 0px;
+    text-decoration: none;
+    font-family: 'Century Gothic' !important;
+	color: #0f4c8b;
+	font-size: 16px;
+    background-image: url('../Images/Controls/ScheduleAccordionBackgroundIcon.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-color: #e5e5e5;
+}
+
+.AccordionHeaderSelected a:link
+{
+    text-decoration: none;
+    font-family: 'Century Gothic' !important;
+	color: #0f4c8b;
+	font-size: 13px;
+}
+
+.AccordionHeaderSelected a:hover
+{
+    text-decoration: underline;
+    font-family: 'Century Gothic' !important;
+	color: #0f4c8b;
+	font-size: 13px;
+}
+
+.AccordionLentPageHeader
+{
+	font-family: 'Century Gothic' !important;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 100;
+	color: #2eabe2;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}

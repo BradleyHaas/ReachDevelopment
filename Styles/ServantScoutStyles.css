@@ -1,0 +1,79 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+body
+{
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+	background-color: #d0e5ee;
+	background-image: url(../Images/Common/bbh_background.gif);
+	background-repeat: repeat-x;
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-position: left top;
+	color: #696969;
+	font-size: 12px;
+}
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td
+{
+	margin: 0;
+	padding: 0;
+}
+
+h1
+{
+	text-align: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+	padding-bottom: 10px;
+	font-weight: normal;
+}
+
+h2
+{
+	text-align: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 32px;
+	color: #FFFFFF;
+	font-weight: normal;
+	padding: 25px 0px 25px 0px;
+}
+
+h3
+{
+	text-align: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 24px;
+	color: #0f4c8b;
+	padding-bottom: 10px;
+	font-weight: normal;
+}
+
+h4
+{
+	text-align: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	color: #0f4c8b;
+	font-weight: normal;
+	padding: 0px 0px 0px 0px;
+}
+
+h5
+{
+	text-align: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	color: #e78720;
+	font-weight: bold;
+}
+
+h6
+{
+	text-align: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+	color: #595959;
+	font-weight: normal;
+	padding: 0px 0px 0px 0px;
+}

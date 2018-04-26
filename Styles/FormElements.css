@@ -1,0 +1,734 @@
+﻿.SearchTextBox {
+    font-family: 'PT Serif', serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #000000;
+    vertical-align: middle;
+    background-color: #F7F7F7;
+    border-radius: 6px;
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+}
+
+.TxtBox {
+    border: 1px solid #C0C0C0;
+    height: 26px;
+    font-family: 'PT Serif' , serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #000000;
+    padding: 0px 2px 0px 2px;
+    vertical-align: middle;
+    background-color: #F7F7F7;
+}
+
+.LargeTxtBox
+{
+	width: 300px;
+	height: 20px;
+	font-family: 'Century Gothic' !important;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	padding: 0px 2px 0px 2px;
+	vertical-align: middle;
+    background-color: #F7F7F7;
+}
+
+.LargeTxtBoxMulti
+{
+	width: 350px;
+	height: 70px;
+	font-family: 'Century Gothic' !important;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	padding: 0px 2px 0px 2px;
+	vertical-align: middle;
+    background-color: #F7F7F7;
+}
+
+.WaterMarkTxtBox {
+    border: 1px solid #C0C0C0;
+    height: 26px;
+    font-family: 'PT Serif' , serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #d2d2d2;
+    padding: 0px 2px 0px 4px;
+    vertical-align: middle;
+    background-color: #F7F7F7;
+}
+
+.MediumTxtBox {
+    border: 1px solid #C0C0C0;
+    height: 26px;
+    font-family: 'PT Serif' , serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #000000;
+    padding: 0px 2px 0px 4px;
+    vertical-align: middle;
+    background-color: #F7F7F7;
+}
+
+.MediumTxtBoxUpload {
+    border: none;
+    height: 26px;
+    font-family: 'PT Serif' , serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #000000;
+    padding: 0px 2px 0px 4px;
+    vertical-align: middle;
+    background-color: #FFFFFF;
+}
+
+.MediumTxtBoxList {
+    font-size: 14px;
+    font-family: 'PT Serif' , serif;
+    color: #000000;
+    border: dashed 1px #0f4c8b;
+    background-color: #F7F7F7;
+    width: 160px;
+    height: 220px;
+    overflow-y: scroll;
+    z-index: 1000000 !important;
+}
+
+.MediumTxtBoxList160 {
+    font-size: 14px;
+    font-family: 'PT Serif' , serif;
+    color: #000000;
+    border: dashed 1px #0f4c8b;
+    background-color: #F7F7F7;
+    width: 160px;
+    height: 160px;
+    overflow-y: scroll;
+    z-index: 1000000 !important;
+}
+
+.MediumTxtBoxExt {
+    font-size: 14px;
+    font-family: 'PT Serif' , serif;
+    color: #000000;
+    left: 20px;
+    border: none;
+    padding: 4px 4px 4px 0px;
+    margin: 4px 4px 4px 0px;
+    z-index: 1000000 !important;
+}
+
+.MediumTxtBoxExtRoll {
+    font-size: 14px;
+    font-family: 'PT Serif' , serif;
+    color: #0f4c8b;
+    left: 20px;
+    border: none;
+    padding: 4px 4px 4px 0px;
+    margin: 4px 4px 4px 0px;
+    z-index: 1000000 !important;
+}
+
+.MediumDropDown {
+    border: 1px solid #C0C0C0;
+    height: 28px;
+    font-family: 'PT Serif' , serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #000000;
+    padding: 0px 2px 0px 4px;
+    vertical-align: middle;
+    background-color: #F7F7F7;
+}
+
+.MediumTxtBoxFade {
+    border: 1px solid #FFFFFF;
+    height: 26px;
+    font-family: 'PT Serif' , serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #000000;
+    padding: 0px 2px 0px 2px;
+    vertical-align: middle;
+    background-color: #F7F7F7;
+}
+
+.MediumTxtBoxCal {
+    background-position: right center;
+    border: 1px solid #C0C0C0;
+    height: 26px;
+    font-family: 'PT Serif' , serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #000000;
+    padding: 0px 2px 0px 2px;
+    vertical-align: middle;
+    background-color: #F7F7F7;
+    background-image: url('/Contentment/Images/CalendarFormIcon.png');
+    background-repeat: no-repeat;
+}
+
+.WaterMarkTxtBoxCal {
+    background-position: right center;
+    border: 1px solid #C0C0C0;
+    height: 26px;
+    font-family: 'PT Serif' , serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #d2d2d2;
+    padding: 0px 2px 0px 2px;
+    vertical-align: middle;
+    background-color: #F7F7F7;
+    background-image: url('/Contentment/Images/CalendarFormIcon.png');
+    background-repeat: no-repeat;
+}
+
+.MessageTxtBox{
+    border: 1px solid #C0C0C0;
+    height: 120px;
+    width: 320px;
+    font-family: 'PT Serif' , serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #000000;
+    padding: 8px 8px 8px 8px;
+    vertical-align: middle;
+    background-color: #F7F7F7;
+    word-wrap: normal;
+}
+
+.MessageTxtBoxFade{
+    border: 1px solid #FFFFFF;
+    height: 120px;
+    width: 320px;
+    font-family: 'PT Serif' , serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #000000;
+    padding: 8px 8px 8px 8px;
+    vertical-align: middle;
+    background-color: #F7F7F7;
+    word-wrap: normal;
+}
+
+.MessageTxtBoxIndent{
+    border: 1px solid #C0C0C0;
+    height: 120px;
+    width: 269px;
+    font-family: 'PT Serif' , serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #000000;
+    padding: 8px 8px 8px 8px;
+    vertical-align: middle;
+    background-color: #F7F7F7;
+    word-wrap: normal;
+}
+
+.MessageTxtBoxGeneric{
+    border: 1px solid #C0C0C0;
+    font-family: 'PT Serif' , serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #000000;
+    padding: 8px 8px 8px 8px;
+    vertical-align: middle;
+    background-color: #F7F7F7;
+    word-wrap: normal;
+}
+
+.SmallTxtBox
+{
+    border: 1px solid #C0C0C0;
+    height: 20px;
+    font-family: 'PT Serif' , serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #000000;
+    padding: 0px 2px 0px 2px;
+    vertical-align: middle;
+    background-color: #F7F7F7;
+}
+
+.DropDown
+{
+	width: 155px;
+	height: 20px;
+	font-family: 'Century Gothic' !important;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	vertical-align: middle;
+    background-color: #F7F7F7;
+}
+
+.DropDownLarge
+{
+    border: 1px solid #C0C0C0;
+	height: 26px;
+	font-family: 'Century Gothic' !important;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	vertical-align: middle;
+    background-color: #F7F7F7;
+}
+
+.DropDownState
+{
+	border: 1px solid #C0C0C0;
+	height: 28px;
+	font-family: 'Century Gothic' !important;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	vertical-align: middle;
+    background-color: #F7F7F7;
+}
+
+.DropDownShipping
+{
+	width: 200px;
+	height: 20px;
+	font-family: 'Century Gothic' !important;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	vertical-align: middle;
+    background-color: #F7F7F7;
+}
+
+.DropDownSmall
+{
+	border: 1px solid #C0C0C0;
+	height: 26px;
+	font-family: 'Century Gothic' !important;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	vertical-align: middle;
+    background-color: #F7F7F7;
+}
+
+.StandardButton
+{
+    font-family: 'Century Gothic' !important;
+    font-size: 12px;
+    color: #FFFFFF;
+    background-color: #0f4c8b;
+    border: 1px solid #0f4c8b;
+    padding: 5px 10px 5px 10px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.StandardButtonRed
+{
+    font-family: 'Century Gothic' !important;
+    font-size: 12px;
+    color: #FFFFFF;
+    background-color: #900b0b;
+    border: 1px solid #900b0b;
+    padding: 5px 10px 5px 10px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.StandardButtonBlack
+{
+    font-family: 'Century Gothic' !important;
+    font-size: 12px;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: 1px solid #000000;
+    padding: 5px 10px 5px 10px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.StandardButtonGreen
+{
+    font-family: 'Century Gothic' !important;
+    font-size: 12px;
+    color: #FFFFFF;
+    background-color: #8ac48d;
+    border: 1px solid #8ac48d;
+    padding: 5px 10px 5px 10px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.StandardButtonYellow
+{
+    font-family: 'Century Gothic' !important;
+    font-size: 12px;
+    color: #FFFFFF;
+    background-color: #f1ca12;
+    border: 1px solid #f1ca12;
+    padding: 5px 10px 5px 10px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.StandardButtonNotActive
+{
+    font-family: 'Century Gothic' !important;
+    font-size: 12px;
+    color: #FFFFFF;
+    background-color: #900b0b;
+    border: 1px solid #900b0b;
+    padding: 5px 10px 5px 10px;
+    width: 100px;
+}
+
+.StandardButtonActive
+{
+    font-family: 'Century Gothic' !important;
+    font-size: 12px;
+    color: #FFFFFF;
+    background-color: #0f4c8b;
+    border: 1px solid #0f4c8b;
+    padding: 5px 10px 5px 10px;
+    width: 100px;
+}
+
+.ShoppingBtnMedium {
+    background-position: center center;
+    border-style: none;
+    border-width: 0px;
+    font-family: 'PT Serif' , serif;
+    font-size: 13px;
+    color: #FFFFFF;
+    padding: 0px;
+    width: 128px;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url('../Images/Common/BtnBackGroundMedium.png');
+    background-repeat: no-repeat;
+    padding: 2px 0px 2px 0px;
+}
+
+.ShoppingBtnMedium a
+{
+    font-family: 'Century Gothic' !important;
+    font-size: 13px;
+    color: #FFFFFF;
+    width: 128px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.ShoppingBtnMedium a:link
+{
+    font-family: 'Century Gothic' !important;
+    font-size: 13px;
+    color: #FFFFFF;
+    width: 128px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.ShoppingBtnMedium a:hover
+{
+    font-family: 'Century Gothic' !important;
+    font-size: 13px;
+    color: #FFFFFF;
+    width: 128px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.ShoppingBtnMedium a:visited
+{
+    font-family: 'Century Gothic' !important;
+    font-size: 13px;
+    color: #FFFFFF;
+    width: 128px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.ShoppingBtnLarge {
+    background-position: center center;
+    border-style: none;
+    border-width: 0px;
+    font-family: 'PT Serif' , serif;
+    font-size: 13px;
+    color: #FFFFFF;
+    padding: 0px;
+    width: 230px;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url('../Images/Common/BtnBackGroundLarge.png');
+    background-repeat: no-repeat;
+    padding: 2px 0px 2px 0px;
+}
+
+.ShoppingBtnLarge a
+{
+    font-family: 'Century Gothic' !important;
+    font-size: 13px;
+    color: #FFFFFF;
+    width: 230px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.ShoppingBtnLarge a:link
+{
+    font-family: 'Century Gothic' !important;
+    font-size: 13px;
+    color: #FFFFFF;
+    width: 230px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.ShoppingBtnLarge a:hover
+{
+    font-family: 'Century Gothic' !important;
+    font-size: 13px;
+    color: #FFFFFF;
+    width: 230px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.ShoppingBtnLarge a:visited
+{
+    font-family: 'Century Gothic' !important;
+    font-size: 13px;
+    color: #FFFFFF;
+    width: 230px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.FilterDropDown {
+    background-image: url('../Images/Books/FilterDropDownBG.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-size: 12px;
+    font-family: 'PT Serif' , serif;
+    border: none;
+    height: 20px;
+    width: 200px;
+    background-color: transparent;
+    padding: 0px 0px 0px 10px;
+}
+
+.styled-select select {
+    background-image: url('/Images/Books/FilterDropDownBG.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-color: transparent;
+    width: 220px;
+    padding: 0px 0px 0px 10px;
+    font-size: 12px;
+    font-family: 'PT Serif' , serif;
+    border: 0;
+    border-radius: 0;
+    height: 20px;
+    -webkit-appearance: none;
+}
+
+.styled-select {
+    width: 200px;
+    height: 20px;
+    overflow: hidden;
+    /*background-image: url('/Images/Books/FilterDropDownArrow.png');
+    background-repeat: no-repeat;
+    background-position: right center;*/
+}
+
+.ShoppingCartBox
+{
+    height: 110px;
+    width: 300px;
+    overflow-y: visible;
+}
+
+.ShoppingCartBox a
+{
+    font-family: 'Century Gothic' !important;
+    font-size: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.ShoppingCartBox a:link
+{
+    font-family: 'Century Gothic' !important;
+    font-size: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.ShoppingCartBox a:hover
+{
+    font-family: 'Century Gothic' !important;
+    font-size: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.ShoppingCartBox a:visited
+{
+    font-family: 'Century Gothic' !important;
+    font-size: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.TextBoxSearchSite {
+    border: none;
+    padding: 2px 2px 2px 12px;
+    font-family: 'Century Gothic' !important;
+    color: #000000;
+    font-size: 13px;
+    height: 22px;
+    width: 165px;
+    background-color: transparent;
+}
+
+.TextBoxSearchSiteLarge {
+    border: 1px solid #C0C0C0;
+    padding: 2px 2px 2px 12px;
+    font-family: 'PT Serif' , serif;
+    color: #000000;
+    font-size: 13px;
+    height: 30px;
+    width: 265px;
+    background-color: transparent;
+}
+
+/*
+  Hide radio button (the round disc)
+  we will use just the label to create pushbutton effect
+*/
+input[type=radio] {
+    display:none; 
+    margin:10px;
+}
+ 
+/*
+  Change the look'n'feel of labels (which are adjacent to radiobuttons).
+  Add some margin, padding to label
+*/
+input[type=radio] + label {
+    display:inline-block;
+    margin:-2px;
+    padding: 6px 14px;
+    background-color: #e7e7e7;
+    border-color: #ddd;
+}
+/*
+ Change background color for label next to checked radio button
+ to make it look like highlighted button
+*/
+input[type=radio]:checked + label { 
+    background-image: none;
+    background-color: #8ac48d;
+}
+
+/*
+  Hide radio button (the round disc)
+  we will use just the label to create pushbutton effect
+*/
+input[type=checkbox] {
+    display:none; 
+    margin:10px;
+}
+ 
+/*
+  Change the look'n'feel of labels (which are adjacent to radiobuttons).
+  Add some margin, padding to label
+*/
+input[type=checkbox] + label {
+    display:inline-block;
+    margin:-2px;
+    padding: 6px 14px;
+    background-color: #e7e7e7;
+    border-color: #ddd;
+}
+/*
+ Change background color for label next to checked radio button
+ to make it look like highlighted button
+*/
+input[type=checkbox]:checked + label { 
+    background-image: none;
+    background-color: #8ac48d;
+}

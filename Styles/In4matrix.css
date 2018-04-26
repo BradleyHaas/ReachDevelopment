@@ -1,0 +1,59 @@
+html
+{
+	color: #000;
+	background: #FFF;
+}
+
+body
+{
+	margin: 0;
+	padding: 5px 0px 0px 0px;
+}
+
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset, img
+{
+	border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var
+{
+	font-style: normal;
+	font-weight: normal;
+}
+
+caption, th
+{
+	text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-size: 100%;
+	font-weight: normal;
+}
+
+.fade_overlay
+{
+	position: absolute;
+	z-index: 100;
+	background-color: #FFFFFF;
+	width: 858px;
+	height: 506px;
+	z-index: auto;
+}
+
+.fade_overlay_home
+{
+	position: absolute;
+	z-index: 100;
+	background-color: #FFFFFF;
+	width: 858px;
+	height: 531px;
+	z-index: auto;
+}

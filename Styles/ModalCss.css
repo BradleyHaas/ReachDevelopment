@@ -1,0 +1,29 @@
+﻿.modalBackground
+{
+  position: absolute;
+  z-index: 100;
+  top: 0px;
+  left: 0px;
+  background-color: #000;
+  filter: alpha(opacity=60);
+  -moz-opacity: 0.6;
+  opacity: 0.6;
+}
+
+.BorderBottom {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #C0C0C0;
+}
+
+.BorderRight {
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #C0C0C0;
+}
+
+.BorderLeft {
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #C0C0C0;
+}

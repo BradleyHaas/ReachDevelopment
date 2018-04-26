@@ -1,0 +1,322 @@
+html {
+	text-align: center;
+}
+
+h2
+{
+	color: #fff;
+	font-size: 2.5em;
+	margin-top: 40px;
+}
+
+h3
+{
+	color: #FA9C94;
+	font-size: 1.5em;
+}
+
+h4
+{
+	font-size: 1.3em;
+	color: #92BDFA;
+}
+
+.content
+{
+	margin: 0 20px;
+}
+
+.content a, .footer a
+{
+	color: #CE91FA;
+	text-decoration: none;
+}
+
+.content a:hover
+{
+	font-style: italic;
+}
+
+.content strong
+{
+	font-weight: bolder;
+	color: #FA9A91;
+}
+
+.content em
+{
+	color: #BDFA91;
+}
+
+/* Showcase content */
+
+.demo_container
+{
+	text-align: center;
+}
+
+#myGallery
+{
+	text-align: left;
+	margin: 0 auto;
+}
+
+.content p.linkage
+{
+	margin-top: 2em;
+	text-align: right;
+}
+
+.content p.linkage a
+{
+	font-size: 1.7em;
+	color: #fff;
+	background: url('../images/bg/biglink_off.gif') center right no-repeat;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.content p.linkage a:hover
+{
+	background: url('../images/bg/biglink_on.gif') center right no-repeat;
+	font-style: italic;
+}
+
+/* detail content */
+
+.content #jdsgShowcase
+{
+	width: 500px;
+	height: 200px;
+	overflow: hidden;
+}
+
+.content p.detail
+{
+	margin: 0 auto;
+	width: 800px;
+	text-align:center;
+	background: #eee;
+	padding: 5px;
+	color: #333;
+}
+
+/* Raw content */
+.content code
+{
+	background:#444444 none repeat scroll 0% 50%;
+	display:block;
+	font-family:courier,monospace;
+	font-size:0.7em;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:400;
+	line-height:120%;
+	margin:10px 15px;
+	overflow:auto;
+	padding:10px;
+}
+
+/* Footer */
+.footer
+{
+	margin-top: 1em;
+	background: #111;
+	color: #fff;
+	padding: 0.2em 2em;
+}
+
+.footer p
+{
+	margin: 0;
+	padding: 0;
+}
+
+.ads
+{
+	margin-top: 1em;
+	text-align: right;
+}
+
+/* Nav */
+
+.navigation
+{
+	margin: 0;
+	padding: 0;
+}
+
+.navigation h2
+{
+	display: none;
+}
+
+.navigation ul
+{
+	position: absolute;
+	top: 66px;
+	right: 20px;
+	padding: 0;
+	margin: 0;
+	font-size: 1.6em;
+	z-index: 0;
+}
+
+.navigation ul ul
+{
+	position: absolute;
+	top: auto;
+	right: auto;
+	padding: 0;
+	margin: 0;
+	width: 120px;
+	font-size: 0.5em;
+	display: none;
+}
+
+.navigation ul li:hover ul
+{
+	display: block;
+}
+
+.navigation li
+{
+	float: left;
+	list-style-type: none;
+}
+
+.navigation ul ul li
+{
+	float: none;
+}
+
+.navigation li a
+{
+	background: url('../images/bg/gradient1.gif') center left repeat-x;
+	padding: 0.2em 0.5em;
+	height: 26px;
+	margin-right: 5px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	overflow: hidden;
+}
+
+* html .navigation li a
+{
+	float: left;
+}
+
+* html .navigation li ul
+{
+	clear: left;
+}
+
+* html .navigation li li a
+{
+	float: none;
+}
+
+.navigation li.last a
+{
+	margin-right: 0;
+}
+
+.navigation li.active a, .navigation li a:hover, .navigation li:hover a
+{
+	border-top: 3px #000 solid;
+}
+
+.navigation li.active a
+{
+	font-weight: bold;
+}
+
+.navigation li a:hover
+{
+	background: #d01a71;
+}
+
+.navigation li ul li a, .navigation li.active ul li a, .navigation li ul li a:hover, .navigation li:hover ul li a
+{
+	margin: 0;
+	border-top: 1px #000 solid;
+	height: auto;
+}
+
+* html .navigation li ul li
+{
+	margin: 0;
+	padding: 0;
+}
+
+.navigation ul ul li.last a
+{
+	border-bottom: 1px #000 solid;
+}
+
+/* Side Menu, borrowed for some parts from  */
+
+.information_bar
+{
+	width: 200px;
+	float: right;
+	margin: 40px;
+	margin-top: 80px;
+	margin-right: 20px;
+}
+
+ul.sideMenu {
+  margin: 0;
+  padding: 0;
+}
+
+.sideMenu li {
+  display: inline;
+
+  /* Needed since IE fails when you give it list-style: none; */
+  list-style-image: url(foo.gif);
+  font: 400 1.3em "trebuchet ms", serif;
+}
+
+.sideMenu li a {
+  display: block;
+  margin: 0.2em 0;
+  padding: 3px 5px;
+
+  text-decoration: none;
+  color: #FFF;
+}
+
+.sideMenu li a:hover {
+  color: #65EBFF;
+  background: #5F5F5F;
+}
+
+/* Active menu item */
+.sideMenu li.here {
+  display: block;
+  padding: 5px;
+  color: #92BDFA;
+  background: #333;
+}
+
+/* Submenu of active menu item */
+.sideMenu li.here ul {
+  margin: 0;
+  padding: 0;
+}
+
+.sideMenu li.here ul li a {
+  padding-left: 35px;
+  font: 400 0.55em verdana, arial, sans-serif;
+  color: #FFF;
+  background: url(../images/bg/bullet.gif) no-repeat 10px 0px;
+}
+
+.sideMenu li.here ul li a:hover {
+  color: #FA9C94;
+  background: #5F5F5F url(../images/bg/bullet.gif) no-repeat 10px 0px;
+}
